@@ -42,6 +42,10 @@ body {
 	color:#fff;
 }
 
+#about h1 {
+	color:#283891;
+}
+
 #fontawico {
 	color:#283891;
 	font-size:3em;
@@ -49,9 +53,15 @@ body {
 
 #serviceicons {
 	background-color:#283891;
+	text-align:center;
 }
 
 #serviceicons h1 {
+	color:#fff;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+#serviceicons h3 {
 	color:#fff;
 	padding-top: 20px;
 	padding-bottom:20px;
@@ -61,7 +71,12 @@ body {
 	margin: 0 auto;
 	width:60%;
 	padding-bottom:20px;
+	
 }
+
+#serviceicons .icons {
+	font-size:30px;
+	color:#fff;
 
 footer {
     margin: 50px 0;
