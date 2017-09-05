@@ -38,6 +38,20 @@ body {
 	font-weight: 300;
 }
 
+#banner-color {
+	background-color: #283891;
+	padding-top: 6em;
+	padding-bottom: 2em;
+}
+#banner-color .text {
+	width: 50%;
+	text-align:center;
+}
+
+#banner-color h1{
+	color: #fff;
+}
+
 #about {
 	color:#fff;
 }
@@ -83,6 +97,8 @@ body {
 	font-size:30px;
 	color:#fff;
 }
+
+
 
 .footer {
 	text-align: center;
