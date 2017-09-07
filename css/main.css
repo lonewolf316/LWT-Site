@@ -98,7 +98,10 @@ body {
 	color:#fff;
 }
 
-
+.software-body {
+	width: 70%;
+	margin: auto;
+}
 
 .footer {
 	text-align: center;
