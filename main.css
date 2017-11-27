@@ -1,0 +1,64 @@
+html,
+
+body{
+	background-color: #222222;
+	
+}
+
+p {
+	color: #cccccc;
+	font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Nunito', sans-serif;
+	
+}
+
+#info {
+	width:50%;
+	margin: auto;
+		padding-bottom:20px;
+	padding-top:20px;
+	
+
+}
+
+#info .content {
+	padding-bottom:20px;
+	padding-top:20px;
+
+}
+
+#info .text {
+	width:70%;
+	display:inline-block;
+}
+
+#info .icon {
+	float:right;
+	display:inline-block;
+	font-size:50px;
+	color: #ffffff
+}
+
+#info .lineone {
+	
+}
+
+#info .linetwo {
+	
+}
+
+#info .created {
+	float:left;
+	display:inline-block;
+	font-size:25px;
+}
+
+#info .updated {
+	float:right;
+	display:inline-block;
+	font-size:25px;
+}
