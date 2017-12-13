@@ -2,7 +2,7 @@ html,
 
 body {
     height: 100%;
-	background-color:#222222;
+	background-color:#0f0f0f;
 }
 
 /*Region for banner*/
@@ -25,24 +25,12 @@ body {
 	position: relative;
 	z-index: 2;
 }
-#banner h1 {
-	color: #fff;
-	font-size: 5em;
-	font-weight: 400;
-	font-family: 'Passion One', cursive;
-	margin: 0;
-}
 #banner p {
-	color: rgba(255, 255, 255, 0.85);
 	font-size: 1.5em;
 	font-weight: 300;
 }
 
-#banner-color {
-	background-color: #283891;
-	padding-top: 6em;
-	padding-bottom: 2em;
-}
+
 #banner-color .text {
 	width: 50%;
 	text-align:center;
@@ -57,45 +45,12 @@ body {
 }
 
 #about h1 {
-	color:#283891;
+	color:#8F8E8D;
 }
 
 #fontawico {
-	color:#283891;
+	color:#8F8E8D;
 	font-size:3em;
-}
-
-#serviceicons {
-	background-color:#283891;
-	text-align:center;
-}
-
-#serviceicons h1 {
-	color:#fff;
-	padding-top: 20px;
-	padding-bottom:20px;
-}
-
-#serviceicons h3 {
-	color:#fff;
-}
-
-#serviceicons p {
-	color:#cccccc;
-	padding-top: 20px;
-	padding-bottom:20px;
-}
-
-#serviceicons .grid {
-	margin: 0 auto;
-	width:60%;
-	padding-bottom:20px;
-	
-}
-
-#serviceicons .icons {
-	font-size:30px;
-	color:#fff;
 }
 
 .software-body {
