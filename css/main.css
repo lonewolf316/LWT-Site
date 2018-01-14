@@ -5,10 +5,11 @@ body {
 	background-color:#0f0f0f;
 }
 
+
 /*Region for banner*/
 #banner {
 	justify-content: center;
-	padding: 8em 4em 6em 4em;
+	padding: 0em 4em 0em 4em;
 	min-height: 100%;
 	max-height: 100%;
 	background-image: url("../images/banner.jpg");
@@ -24,6 +25,7 @@ body {
 	text-align: center;
 	position: relative;
 	z-index: 2;
+	
 }
 #banner p {
 	font-size: 1.5em;
@@ -38,6 +40,7 @@ body {
 
 #banner-color h1{
 	color: #fff;
+	
 }
 
 #about {
