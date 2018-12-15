@@ -9,11 +9,9 @@ body {
     line-height:0;
 }
 
-/*Region for banner*/
 #banner {
 	justify-content: center;
-	padding: 5% 4em 4em 4em;
-	min-height: 100%;
+	min-height: 1%;
 	max-height: 100%;
 	background-color: #000000;
 	background-position: center;
@@ -25,29 +23,6 @@ body {
 	overflow: hidden;
 	width: 100%;
 }
-#banner .inner {
-	text-align: center;
-	position: relative;
-	z-index: 2;
-	
-}
-#banner p {
-	font-size: 1.5em;
-	font-weight: 300;
-}
-
-
-#banner-color .text {
-	padding-top: 10em;
-	width: 50%;
-	text-align:center;
-}
-
-#banner-color h1 {
-	color: #fff;
-	
-}
-
 #partners {
 	background-color: #1c1c1c;
 }
@@ -65,7 +40,7 @@ body {
 }
 
 #about h1 {
-	color:#8F8E8D;
+	color:#e0f0ed;
 }
 
 #fontawico {
@@ -96,4 +71,23 @@ body {
     height: 100%;
     width: 320px;
     position:relative;
+}
+
+video#bgvid { 
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    background-image: url(images/still.png) no-repeat;
+    background-size: cover; 
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(images/still.png) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
 }
