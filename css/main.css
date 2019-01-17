@@ -23,6 +23,26 @@ body {
 	overflow: hidden;
 	width: 100%;
 }
+#banner .inner {
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	
+}
+#banner p {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+#banner-color .text {
+	padding-top: 10em;
+	width: 50%;
+	text-align:center;
+}
+#banner-color h1 {
+	color: #fff;
+	
+}
+
 #partners {
 	background-color: #1c1c1c;
 }
